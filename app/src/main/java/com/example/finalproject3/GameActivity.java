@@ -7,17 +7,11 @@ import androidx.appcompat.app.AppCompatActivity;
 public class GameActivity extends AppCompatActivity{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_screen);
 
-
-        String[] textColor = {"Red", "Orange", "Yellow", "Green", "Blue", "Purple"};
-
-
-
-
-
+        String[] textColor = {"Red", "Orange", "Yellow", "Green", "Blue", "Purple"}
 
     }
 
