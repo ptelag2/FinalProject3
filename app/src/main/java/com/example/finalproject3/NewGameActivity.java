@@ -6,8 +6,9 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class NewGameActivity {
+public class NewGameActivity extends AppCompatActivity {
 
+    @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
